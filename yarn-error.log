@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/JeevanDash/.nvm/versions/node/v16.18.1/bin/node /usr/local/bin/yarn add express nodemone
+
+PATH: 
+  /Users/JeevanDash/.rvm/gems/ruby-2.7.6/bin:/Users/JeevanDash/.rvm/gems/ruby-2.7.6@global/bin:/Users/JeevanDash/.rvm/rubies/ruby-2.7.6/bin:/Users/JeevanDash/.nvm/versions/node/v16.18.1/bin:/usr/local/opt/inetutils/libexec/gnubin:/usr/local/opt/ruby@2.7/bin:/usr/local/opt/ruby/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/JeevanDash/.cargo/bin:/Users/JeevanDash/Library/Android/sdk/emulator:/Users/JeevanDash/Library/Android/sdk/platform-tools:/Users/JeevanDash/.rvm/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://mbopartners-596212449348.d.codeartifact.us-east-1.amazonaws.com/npm/npm-store/nodemone: Package, 'nodemone', not found.
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:513:28)
+      at Gunzip.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:627:28)
+      at Gunzip.emit (node:events:513:28)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "beatbuzz-user-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
